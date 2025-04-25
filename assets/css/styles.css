@@ -23,6 +23,10 @@
   padding-bottom:30px;
 }
 
+.h1{
+  font-weight: 500;
+}
+
 #jobs {
   background-color: #17A2B8;
   padding-top: 8px;
