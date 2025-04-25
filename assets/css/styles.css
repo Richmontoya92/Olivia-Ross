@@ -1,21 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+#bgfoto {
+  background-image: url('../img/bg-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 630px;
+  padding: 10px;
 }
 
-html, body{
-    height: 100%;
+#order {
+  display: flex;
+  justify-content: end;
 }
 
-.customcolor{
-    background-color: #373A3C;
+#intro {
+  max-width: 650px;
+  padding-top: 150px;
+  padding-bottom: 15px;
+  color: #ffffff;
 }
 
-#header{
-    background-image: url(../img/bg-hero.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: left;
+#introbuttons {
+  padding-bottom:30px;
+}
+
+#jobs {
+  background-color: #17A2B8;
+  padding-top: 8px;
+  padding-bottom: 40px;
+}
+
+h2{
+  color:#ffffff;
+  font-weight: 500;
+}
+
+.col {
+  margin-bottom: 1.5rem; 
+  border: none;
+  border-radius: 0;
+}
+
+#boton {
+  color: #17A2B8;
+}
+
+#contact {
+  padding: 25px 15px;
+}
+
+#foot {
+  color: #ffffff;
+  background-color: black;
+  height: 100px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
